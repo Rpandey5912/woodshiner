@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(/picture/background-2132909_1920.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+
+.left {
+    display: inline-block;
+
+    width: 130px;
+}
+.left img{
+    color: white;
+}
+.left p{
+    padding-right: 35px;
+}
+
+.h1 {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 27px;
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+
+    position: absolute;
+}
+
+.h1 p {
+    font-size: 20px;
+}
+
+.right {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px;
+    float: right;
+}
+
+.right li {
+    display: inline-block;
+    list-style-type: none;
+
+
+}
+
+.right li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #060707;
+    margin: 0 17px;
+    border-radius: 10px;
+    color: #060707;
+    font-weight: bold;
+
+}
+
+.right a:hover {
+    background-color: aliceblue;
+}
+
+.header {
+    background-color:rgb(250, 185, 6);
+    position:sticky;
+  
+}
+
+.slider {
+margin-top:0PX;
+    width: 100%;
+    height: 500px;
+    background-image: url(/picture/slider1\ \(1\).jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation: changeimage 20s linear infinite;
+}
+
+@keyframes changeimage {
+    0% {
+        background-image: url(/picture/slider1\ \(1\).jpg);
+    }
+
+    25% {
+        background-image: url(/picture/slider2\(2\).jpg)
+    }
+
+    50% {
+        background-image: url(/picture/slider1\ \(3\).jpg)
+    }
+
+    75% {
+        background-image: url(/picture/slider1\ \(4\).jpg)
+    }
+
+    100% {
+        background-image: url(/picture/workshop-4863393_1920.jpg)
+    }
+}
+
+.sliderh1 {
+    font-size: 40px;
+    padding: 200px 380px;
+    color: rgba(187, 189, 190, 0.795);
+}
+
+.h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0px;
+    padding-top: 25px;
+    background-color: rgb(240, 229, 79) ;
+
+
+}
+.container{
+    background-color: rgb(238, 228, 96);
+    width: 100%;
+    height: 60vh;
+    
+  
+    
+}
+.primary-images{
+    margin: 0px 0px 0px 10%;
+    width: 90%;
+    height: 60vh;   
+}
+.container img{
+    
+    clip: rect(0px,60px,200px,0px)
+}
+.first{
+  
+margin-left: 35px;
+box-shadow: 0px 5px 5px 3px pink;
+border-radius: 15px ;
+}
+.second{
+  margin-left: 60px; 
+  box-shadow: 0px 3px 3px 3px pink;
+  border-radius: 15px ;
+}
+.third{
+    margin-left: 60px; 
+    box-shadow: 0px 3px 3px 3px pink; 
+    border-radius: 15px ;   
+}
+
+.firsttext{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.first:hover,.second:hover,.third:hover{
+    zoom:-1%;
+    cursor: pointer;
+  height: 320px;
+    border: 3px solid rgb(250, 185, 6);
+    transition: 2s;
+}
+.para2{
+    
+    width: 100%;
+    padding: 70px;
+    text-align: justify;
+    background-color:rgb(240, 229, 79);
+    
+}
+.para2 p{
+    font-size: 20px;
+}
+.btn{
+  margin-top: 6px; 
+}
+.btn button{
+    margin-left: 450px;
+    font-size: 20px;
+    width: 18%;
+    height: 50%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 22px;
+    color: rgb(19, 18, 16);
+    border-color: rgb(211, 172, 136);
+    cursor: pointer;
+    
+}
+/*form section start from here*/
+#form-group{
+    width: 60%;
+    height:90vh;
+    border: 2px solid rgb(248, 247, 247);
+    margin-left: 20%;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.contact-form h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+form label{
+   color: white; 
+   font-size: 20px;
+   margin-left: 30%;
+   padding-top: 10px;
+}
+.formgroup{
+    margin-top: 20px;
+}
+.formgroup input{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    align-items: center;
+    margin-left: 30%;
+    background-color: transparent;
+    border-color: rgb(240, 229, 79);
+    fontcolor: white;
+    
+}
+.query{
+    display: block;
+    margin-left: 30%;
+    padding: 30px;
+    width: 40%;
+    background-color: transparent;
+    border-color: rgb(240, 229, 79);
+    fontcolor: white;
+}
+.Fbtn{
+    display: block;
+    margin-left: 37.5%;
+    padding: 10px;
+    width: 25%;
+    margin-top: 25px;
+    border-radius: 12px;
+    color: white;
+    border-color: rgb(240, 229, 79);
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.formgroup:hover{
+    
+}
+.Fbtn:hover{
+    box-shadow:1px 1px 1px 1px rgb(240, 229, 79) ;
+    color: white;
+   
+}
+/*Seocnd Container Start here*/
+.container2{
+    display: flex;
+    width: auto;
+    height: 70vh;
+    background-color: rgb(240, 229, 79);
+    margin: 0px 0px 30px 0px;
+
+}
+.indise-container{
+    border:3px solid #d8ac7a;
+    display: block;
+    width: 20%;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 30px;  
+}
+.indise-container img{
+    padding-left: 50px;
+}
+.indise-container h2,p{
+    padding-left: 0px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.indise-container h2{
+    font-size: 25px;
+    font-size: 30px;
+}
+.btn3{
+    width: 40%;
+    height: 10%;
+    margin: 12px 0px 0 80px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(240, 229, 79);
+    cursor: pointer;
+
+}
+.indise-container:hover{
+    box-shadow: pink 1px 2px 2px 3px;
+}
+.container2h{
+    font-size: 25px;
+    text-align: center;
+    border:0 0 20px 0;
+    background: rgb(240, 229, 79);
+    height: 20vh;
+}
+footer{
+    background-color:  rgb(240, 229, 79);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20%;
+    height: 5vh;
+    font-size:20px;
+}
+
+
+

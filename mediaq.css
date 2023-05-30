@@ -1,0 +1,153 @@
+/*Media query*/
+@media screen and (max-width:600px){
+    *{
+       margin: 0;
+       padding: 0;
+    }
+    body{
+        background-color: yellow;
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .header .h1{
+        font-size: 20px;
+    }
+    .right li {
+        display:inline-block;
+        list-style-type: none;  
+        
+    
+    
+    }
+   .right{
+    width:100%;
+    height: 70px;
+    margin-top: 0px;
+    background-color: rgb(238, 228, 96);
+   }
+   
+    .right li a {
+        width: 100%;
+        text-decoration: none;
+        padding:10px;
+        margin-left: 25px;
+        font-size: 20px;
+        border: 1px solid #060707;
+        border-radius: 10px;
+        color: #060707;
+        font-weight: bold;
+        
+    
+    }
+    .slider {
+        margin-top:50PX;
+            width: 100%;
+            height: 500px;
+            background-image: url(/picture/slider1\ \(1\).jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            animation: changeimage 20s linear infinite;
+        }
+        .sliderh1 {
+            font-size: 35px;
+            width: 100%;
+            padding: 200px 80px;
+            color: rgba(187, 189, 190, 0.795);
+        }
+        .btn button{
+            margin-top: 10px;
+            margin-left: 160px;
+            font-size: 15px;
+            width: 30%;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 5px 15px;
+            color: rgb(19, 18, 16);
+            border-color: rgb(211, 172, 136);
+            cursor: pointer;
+            
+        }
+        .container{
+            background-color: rgb(238, 228, 96);
+            width: 100%;
+            height: 90vh;
+        }
+        .primary-images{
+            margin: 0px 0px 0px 17%;
+            width: 100%;
+            height: 60vh;   
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .first{
+  
+            margin-left: 60px;
+            margin-bottom: 20px;
+            box-shadow: 0px 5px 5px 3px pink;
+            border-radius: 15px ;
+            }
+            .second{
+                margin-left: 60px; 
+                margin-bottom: 20px;
+                box-shadow: 0px 3px 3px 3px pink;
+                border-radius: 15px ;
+              }
+              .third{
+                margin-left: 60px; 
+                box-shadow: 0px 3px 3px 3px pink; 
+                border-radius: 15px ;   
+            }
+            .container2h{
+                font-size: 15px;
+                text-align: center;
+                border:0 0 20px 0;
+                background: rgb(240, 229, 79);
+                height: 10vh;
+            }
+            .container2{
+                display: inline-block;
+                width: 100%;
+                height: 190vh;
+                background-color: rgb(240, 229, 79);
+                margin: 0px 0px 30px 0px;
+                align-items: center;
+                justify-content: center;
+            
+            }
+            .indise-container{
+                border:3px solid #d8ac7a;
+                display: block;
+                width:50%;
+                margin-top: 50px;
+                margin-left: 25%;
+                margin-bottom: 30px;  
+                align-items: center;
+                padding-top: 15px;
+            }
+            .indise-container img{
+                padding-left: 80px;
+            }
+            #form-group{
+                width: 60%;
+                height:60vh;
+                border: 2px solid rgb(248, 247, 247);
+                margin-left: 20%;
+                margin-top: 80px;
+                margin-bottom: 90px;
+            }
+            .contact-form h1{
+                font-size: 40px;
+                color: white;
+                text-align: center;
+                margin-top: 30px;
+                padding-top: 20px;
+            }
+            form{
+                margin-top: 70px;
+            }
+}
